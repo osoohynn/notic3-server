@@ -13,3 +13,6 @@ app.get('/', (req, res) => {
 
 const adminRouter = require('./admin');
 app.use('/admin', adminRouter);
+
+const boardRouter = require('./board');
+app.use('/board', boardRouter);
