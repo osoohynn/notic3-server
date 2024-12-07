@@ -16,3 +16,6 @@ app.use('/admin', adminRouter);
 
 const boardRouter = require('./board');
 app.use('/board', boardRouter);
+
+const cors = require('cors');
+app.use(cors());
